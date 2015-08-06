@@ -1,0 +1,388 @@
+*{    
+	margin:0;
+	padding:0;	
+}
+body{
+	font: normal 10px tahoma;
+}
+.checkOutDemo{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-150px;
+	margin-top: -215px;
+	width: 300px;
+	height: 430px;
+	background:white; 
+		-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+			box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+			border:1px solid #efefef; 
+	-moz-border-radius:120px 120px 120px 120px / 6px 6px 6px 6px;    
+		 border-radius:120px 120px 120px 120px / 6px 6px 6px 6px;
+	behavior: url(css/border-radius.htc);
+}
+.checkOutSpace{
+	clear:both;
+	height:40px;
+}
+.checkOutBody{
+	position:relative;	
+}
+.checkOutBody2{
+	margin: 45px auto;
+	width: 220px;	
+}
+.checkOutHeader{
+	width: 70px;
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	margin-top: -45px;	
+}
+.checkOutNav ul{
+	
+	vertical-align:middle;
+	list-style:none;
+	text-align:center;
+	border-bottom:1px solid orange;
+}
+.checkOutNav ul li{
+	display:inline-block;
+	vertical-align:middle;
+	font-size:11px;
+	font-weight:bold;
+	padding:5px;
+	cursor:pointer;
+	color:rgba(0,0,0,0.3);
+	/* color:#6292a3; */
+	width: 75px;
+	behavior: url(css/border-radius.htc);
+}
+.checkOutNav ul li.checkOutSelectedTab{
+	border-bottom:2px solid orange;
+	color:orange;
+}
+.checkOutNav ul li:hover{
+	border-bottom:2px solid orange;
+	color:orange;
+}
+.checkOutPaymentBody{
+	margin-top:20px;
+	background-image:url('images/map.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:250px;
+}
+.checkOutCardSelect{
+	margin: 0 auto;
+	width: 85%;
+	text-align:center;
+	vertical-align:middle;
+}
+.checkOutCardSelect label{
+	color: rgba(0,0,0,0.3);
+	font-weight:bold;
+	display: inline-block;
+	cursor:pointer;
+	font-size: 13px;
+	width: 100px;
+	margin: 0 5px 15px;
+	text-align: center;
+	padding: 5px;
+	vertical-align:middle;
+	webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+	behavior: url(css/border-radius.htc);
+}
+.checkOutCard{
+	vertical-align:middle;
+	margin-right:25px;
+}
+.emailFld{
+	text-align:center;
+	margin-bottom: 15px;
+}
+.checkOutCardBody,.checkOutNetBankingBody{
+	margin: 30px auto 0;
+	width: 90%;
+	height: 170px;
+	border-radius:10px;
+		webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	behavior: url(css/border-radius.htc);
+}
+.checkOutNetBankingBody{
+	height: 155px;
+}
+.checkOutCardHeader{
+	height:25px;
+}
+.checkOutFieldBox{
+	text-align:center;
+	color:white;
+	padding: 7px 0;
+}
+.checkOutInput{
+	color:#6292a3;
+	font-size:15px;
+	width: 180px;
+	text-align: center;
+	outline:0;
+	border:0px solid;
+	border-bottom:1px solid rgba(1,1,1,0.1);
+	background-color: rgba(1,1,1,0);
+}
+.checkOutSchemImg{
+	text-align:right;
+}
+.cardTypeCantainer{
+	font-size: 13px;
+	color: rgba(0,0,0,0.3);  
+	font-weight: bolder;
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+	text-indent: 10px;
+}
+.checkOutSchemImg>img{
+	margin-right:10px;
+}
+.checkOutInputExpiary{
+	width: 70px;
+	margin-right:20px;
+}
+.checkOutInputCvv{
+	width: 70px;
+	margin-left:20px;
+}
+.checkOutBtn,.checkOutBtn2{
+	position: absolute;
+	width: 100%;
+	height: 25px;
+	bottom: 5px;
+	text-align: center;
+	cursor:pointer;
+	outline:0;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	border: 0px solid #efefef;
+	-moz-border-radius: 120px 120px 120px 120px / 6px 6px 6px 6px;
+	border-radius: 120px 120px 120px 120px / 6px 6px 6px 6px;
+	behavior: url(css/border-radius.htc);
+	background: -webkit-linear-gradient(#fdc942 ,#f75b04);
+	background: -o-linear-gradient(#fdc942 ,#f75b04);
+	background: -moz-linear-gradient(#fdc942 ,#f75b04);
+	background: linear-gradient(#fdc942 ,#f75b04);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#fdc942', endColorstr='#f75b04');/*For IE7-8-9*/
+}
+.checkOutBtn:disabled{
+	position: absolute;
+	width: 100%;
+	height: 25px;
+	bottom: 5px;
+	text-align: center;
+	cursor:pointer;
+	outline:0;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	border: 0px solid #efefef;
+	-moz-border-radius: 120px 120px 120px 120px / 6px 6px 6px 6px;
+	border-radius: 120px 120px 120px 120px / 6px 6px 6px 6px;
+	behavior: url(css/border-radius.htc);
+	background: -webkit-linear-gradient(#F4F4F4 ,#949494);
+	background: -o-linear-gradient(#F4F4F4 ,#949494);
+	background: -moz-linear-gradient(#F4F4F4 ,#949494);
+	background: linear-gradient(#F4F4F4 ,#949494);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#F4F4F4', endColorstr='#949494');/*For IE7-8-9*/
+}
+.checkOutBtn>span, .checkOutBtn2>span{
+	display:inline-block;
+	color:white;
+	font-size:15px;
+	font-weight:bold;
+	
+}
+.checkOutShadow{
+	position: absolute;
+	width: 100%;
+	height: 10px;
+	bottom: -25px;
+	background: gray;
+	opacity: 0.1;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	border: 0px solid #efefef;
+	-moz-border-radius: 120px 120px 120px 120px / 6px 6px 6px 6px;
+	border-radius: 120px 120px 120px 120px / 6px 6px 6px 6px;
+	behavior: url(css/border-radius.htc);
+}
+.checkOutErrorMsg{
+	font-size:11px;
+	margin-top:-7px;
+	color:#e78484;
+	text-align:center;
+}
+.card_error{
+	margin-top:-12px;
+}
+.errorSpanBox{
+	display:block;
+	clear:both;
+}
+.checkOutErrorMsgExpiry{
+	float: left;
+	width: 130px;
+	text-align:right;
+}
+.checkOutErrorMsgCvv{
+	float: right;
+	width: 136px;
+}
+
+.checkOutErrorMsgCvv>img{
+	width: 50px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.NBcheckOutList{
+	position: relative;
+	list-style-type: none;
+	display: inline-block;
+	width: 45px;
+	margin: 10px 21px;
+}
+.NBcheckOutList>img{
+	width: 45px;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+	cursor:pointer;
+}
+.NBcheckOutList>input:checked  ~ img{
+	-webkit-box-shadow: 0px 0px 5px 2px orange;
+	-moz-box-shadow: 0px 0px 5px 2px orange;
+	box-shadow: 0px 0px 5px 2px orenge;
+}
+center{
+	width: 100%;
+	text-align: center;
+}
+center select{
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: 300px;
+	width: 260px;
+	padding: 5px;
+	margin-top: 30px;
+	font-family: Cursive;
+	line-height: 1;
+	border-radius: 0px;
+	background-color: #FFFFFF;
+	color: gray;
+	font-size: 12px;
+	outline: none;
+}
+center select:hover{
+	-webkit-box-shadow: 0 0 5px #999;
+	box-shadow: 0 0 5px #999;
+}
+.bank_label{
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+	color: rgba(0,0,0,0.3);
+	font-size: 11px;
+	font-weight: bold;
+}
+.errorImg{
+	width:230px;
+}
+.emailInput{
+	width: 220px;
+	font-size:13px;	
+	border:1px solid rgba(1,1,1,0.1);
+	border-radius:15px;
+	padding: 5px 0;
+}
+#checkOutEmailError{
+	margin-top:0px;
+}
+.disableBlock{
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:-10000;
+}
+.rotateAnimation{
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotateY(360deg); 
+    -moz-animation-duration: 2s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    animation-name: rotateY(360deg); 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotateY(0deg);}
+    to {-webkit-transform: rotateY(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotateY(0deg);}
+    to {-moz-transform: rotateY(360deg);}
+}
+
+@keyframes rotate {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+.closeCheckout{
+	position: absolute;
+	right: 0;
+	top: 3px;
+}
+.closeCheckoutImg{
+	width: 20px;
+	opacity: 0.6;
+	cursor: pointer;
+}
+#checkOutMestroError{
+	margin-top: 5px;
+	font-size:0px;
+}
+.animationMestroError{
+    font-size:11px !important;
+    -webkit-animation-name: FontInc; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: FontInc;
+    animation-duration: 1s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes FontInc {
+    from {font-size: 0px;}
+    to {font-size: 11px;}
+}
+
+/* Standard syntax */
+@keyframes FontInc {
+    from {font-size: 0px;}
+    to {font-size: 11px;}
+}
+.NB_error{
+	margin-top:2px;
+}
